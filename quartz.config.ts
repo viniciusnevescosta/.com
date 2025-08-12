@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "",
+    pageTitle: "Home",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FFFCF0",
+          lightgray: "#E6E4D9",
+          gray: "#9F9D96",
+          darkgray: "#575653",
+          dark: "#1C1B1A",
+          secondary: "rgb(102, 128, 11)",
+          tertiary: "rgb(135, 154, 57)",
+          highlight: "rgba(36, 131, 123, 0.12)",
+          textHighlight: "#3AA99F",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1C1B1A",
+          lightgray: "#403E3C",
+          gray: "#9F9D96",
+          darkgray: "#CECDC3",
+          dark: "#FFFCF0",
+          secondary: "rgb(102, 128, 11)",
+          tertiary: "rgb(135, 154, 57)",
+          highlight: "rgba(58, 169, 159, 0.18)",
+          textHighlight: "#3AA99F",
         },
       },
     },
@@ -95,3 +95,26 @@ const config: QuartzConfig = {
 }
 
 export default config
+
+// lightMode: {
+//   light: "#F5F5F4",         // Cinza off-white
+//   lightgray: "#E1E1DE",
+//   gray: "#9C9C97",
+//   darkgray: "#565653",
+//   dark: "#262625",
+//   secondary: "#8C5E3C",     // Cobre
+//   tertiary: "#B07C4F",      // Cobre claro
+//   highlight: "rgba(176, 124, 79, 0.2)",
+//   textHighlight: "#B07C4F"
+// },
+// darkMode: {
+//   light: "#262625",
+//   lightgray: "#565653",
+//   gray: "#9C9C97",
+//   darkgray: "#D1D1CE",
+//   dark: "#F5F5F4",
+//   secondary: "#B07C4F",
+//   tertiary: "#8C5E3C",
+//   highlight: "rgba(176, 124, 79, 0.25)",
+//   textHighlight: "#D7A879"
+// }
